@@ -7,6 +7,6 @@ int sum(int a, int b) {
 void main() {
   test("Test Sum", () {
     expect(sum(1, 1), lessThan(3));
-    expect(sum(3, 3), lessThan(7));
+    expect(sum(3, 3), same(6));
   });
 }
